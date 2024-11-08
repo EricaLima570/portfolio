@@ -1,0 +1,73 @@
+body {
+    background-image: url(./img/padrao-de-borboleta-desenhado-a-mao_23-2150996179.avif); 
+    background-repeat: repeat; 
+    background-size: auto;
+}
+.div1{
+    border: 2px double rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: 0px 200px 0px 200px;
+
+}
+header{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(226, 226, 236);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    background-color: rgb(253, 254, 255);
+    overflow: hidden;
+    height: 40px;
+    border: solid;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+nav a {
+    color: black; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: border-color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255); 
+    border-color: rgb(243, 243, 245); 
+    background-color: rgb(1, 1, 2);
+}
+
+.container{
+    border:2px double rgb(2, 25, 100);
+    border-radius: 20px;
+    padding: 50px;
+    margin: 30px;
+    background-color: rgb(204, 208, 219);
+}
+#redes-sociais {
+    background-color: rgb(0, 0, 0);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+}
+
+#redes-sociais a img {
+    width: 30px; 
+    height: auto; 
+    margin: 0 10px;
+}
+h2{
+    text-align: center;
+}
+#email{
+    text-decoration: none; 
+    color: black;
+
+}
